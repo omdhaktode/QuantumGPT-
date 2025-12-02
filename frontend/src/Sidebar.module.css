@@ -1,0 +1,86 @@
+.sidebar {
+    background-color: #171717;
+    color : #b4b4b4;
+    height: 100vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 2rem; 
+    width: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 0.5px rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(180,180,180,0.05);
+} 
+.icon {
+    font-size: 2rem;
+}
+
+.history {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+
+.history li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    border: solid 0.6rem transparent;
+    position: relative;
+}
+
+.history li:hover {
+    background-color: rgba(180,180,180,0.05);
+    border-radius: 0.6rem;
+}
+
+.sign {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-top:solid 0.25px rgba(255, 255, 255, 0.5);
+}
+
+.icn {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    color: #fff
+}
+
+.history li:hover .icn {
+    opacity: 1;
+   
+}
+
+.icn:hover {
+    color: red;
+}
+
+.highlighted {
+    background-color: rgba(180,180,180,0.05);
+    border-radius: 10px;
+}
